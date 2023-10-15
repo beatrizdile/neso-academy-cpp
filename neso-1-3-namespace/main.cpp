@@ -1,10 +1,12 @@
 #include <iostream>
 
+using namespace std;
+
 int main(void)
 {
-	std::cout << "Enter any number: ";
+	cout << "Enter any number: " << endl;
 	int n1 = 0;
-	std::cin >> n1;
-	std::cout << "The entered number is " << n1;
+	cin >> n1;
+	cout << "The entered number is " << n1;
 	return 0;
 }
